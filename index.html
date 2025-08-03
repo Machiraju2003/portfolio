@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Hari Ram Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.jpg" rel="icon">
+  <link href="img/favicon.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Nov 17 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+<section id="hero" class="d-flex flex-column justify-content-center">
+  <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <h1>Machiraju Hari Ram</h1>
+    <p>
+      I'm <span class="typed" data-typed-items="BTech ECE'25 | RGMCET Nandyal | Embedded Developer |  Python Developer"></span>
+    </p>
+
+    <div class="social-links">
+      <a href="https://github.com/Machiraju2003" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+      <a href="http://www.linkedin.com/in/hariram-machiraju" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    </div>
+
+    <!-- Wrapper for Button and Icons -->
+    <div class="button-and-icons mt-3 d-flex align-items-center flex-wrap">
+      <a href="assets/hariram_resume.pdf" download class="btn btn-primary me-3">Download Resume</a>
+
+      <!-- Fixed box for moving icons -->
+      <div class="icons-wrapper">
+        <div class="tech-stack-icons">
+         <i class="bx bx-chip" title="Digital Electronics" style="color: #FF6B35;"></i>
+          <i class="bx bx-radio" title="Analog Electronics" style="color: #1E88E5;"></i>
+          <i class="bx bx-signal-5" title="Signal Processing" style="color: #43A047;"></i>
+          <i class="bx bx-wifi" title="Communication Systems" style="color: #8E24AA;"></i>
+          <i class="bx bx-microchip" title="Microprocessors" style="color: #FB8C00;"></i>
+          <i class="bx bx-broadcast" title="Electromagnetic Theory" style="color: #E53935;"></i>
+          <i class="bx bx-devices" title="VLSI Design" style="color: #00ACC1;"></i>
+          <i class="bx bx-network-chart" title="Control Systems" style="color: #7CB342;"></i>
+          <i class="bx bx-pulse" title="Power Electronics" style="color: #FFB300;"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS -->
+<style>
+  /* Tech stack icons container */
+  .icons-wrapper {
+    position: relative;
+    width: 500px; /* Fixed area for icons to move */
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .tech-stack-icons {
+    display: flex;
+    gap: 15px;
+    animation: moveIconsFixed 12s linear infinite;
+  }
+
+  .tech-stack-icons i {
+    font-size: 3rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .tech-stack-icons i:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
+  }
+
+  @keyframes moveIconsFixed {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  /* Button and icons main wrapper */
+  .button-and-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .button-and-icons {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .icons-wrapper {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+</style>
+
+
+  
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+    <div class="about-card">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <img src="assets/profile-image.jpg" class="about-img" alt="Profile">
+        </div>
+        <div class="col-lg-8 about-content">
+          <h2 class="about-heading">Ramm Machiraju</h2>
+<p class="about-subtitle">Embedded Systems Engineer | VLSI Design | IoT Developer</p>
+<p>
+ I am a passionate Embedded Systems Engineer and VLSI Design Specialist with strong analytical skills and a drive for solving complex hardware challenges. My journey is powered by hands-on experience in developing efficient embedded solutions, designing digital circuits using Verilog/VHDL, and creating innovative IoT systems that bridge the gap between hardware and software.
+</p>
+
+          <div class="about-info row">
+            <div class="col-md-6">
+              <ul>
+                <li><strong>Birthday:</strong> 25 August 2003</li>
+                <li><strong>Phone:</strong> +91 7995307237</li>
+                <li><strong>Location:</strong> Bengaluru, India</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li><strong>Age:</strong> 21</li>
+                <li><strong>Qualification:</strong> B.Tech (ECE)</li>
+                <li><strong>Email:</strong> machirajuhariramm@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about-sections">
+      
+            <h4>Core Expertise</h4>
+            <ul>
+              <li>Embedded Systems Design & Development (ARM Cortex, AVR, PIC)</li>
+              <li>VLSI Design & Digital Circuit Implementation (Verilog, VHDL)</li>
+              <li>IoT Solutions Architecture & Sensor Integration</li>
+              <li>PCB Design & Hardware-Software Interface Development</li>
+              <li>Real-time Systems Programming & Microcontroller Firmware</li>
+            </ul>
+
+            <h4>Services Offered</h4>
+            <ul>
+              <li>Custom Embedded Hardware & Firmware Development</li>
+              <li>IoT Device Prototyping, Integration & Deployment</li>
+              <li>VLSI Circuit Design Mentorship & FPGA Programming</li>
+              <li>Freelance Electronics Projects & Technical Consultancy</li>
+              <li>Open Source Hardware Development & Circuit Contributions</li>
+            </ul>
+
+            <h4>Let's Collaborate</h4>
+            <p>
+              I am always eager to work on innovative hardware projects and collaborate with teams and individuals who aim to push the boundaries of embedded technology. Whether it's a complex IoT system, a cutting-edge VLSI design, or a custom embedded solution, let's connect and bring your ideas to life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+  <h2>Facts</h2>
+  <p style="text-align: justify;">
+    Did you know the first computer programmer was Ada Lovelace, who wrote the world's first algorithm in the mid-1800s? Today, technology continues to evolve rapidly — with the number of internet users doubling approximately every two years.
+  </p>
+</div>
+
+<div class="row">
+
+  <div class="col-lg-3 col-md-6">
+    <div class="count-box">
+      <i class="bi bi-emoji-smile"></i>
+      <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+      <p>Happy Clients</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+    <div class="count-box">
+      <i class="bi bi-journal-richtext"></i>
+      <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+      <p>Completed Projects</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+    <div class="count-box">
+      <i class="bi bi-headset"></i>
+      <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+      <p>Hours of Technical Support</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+    <div class="count-box">
+      <i class="bi bi-award"></i>
+      <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+      <p>Professional Recognitions</p>
+    </div>
+  </div>
+
+</div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+       <div class="section-title">
+         <h2>Skills</h2>
+         <div>
+ <p style="text-align: justify;">
+
+   <strong>Embedded Systems Programming:</strong> Proficient in C/C++, Assembly language, and Python for microcontroller programming. Experienced with ARM Cortex, AVR, PIC, and ESP32 platforms for developing efficient firmware solutions.<br><br>
+
+   <strong>VLSI Design & Verification:</strong> Solid understanding of digital circuit design principles with hands-on experience in Verilog and VHDL. Skilled in RTL design, synthesis, timing analysis, and FPGA implementation using Xilinx and Intel tools.<br><br>
+
+   <strong>IoT System Architecture:</strong> Experienced in designing end-to-end IoT solutions, including sensor integration, wireless communication protocols (WiFi, Bluetooth, LoRa), cloud connectivity, and data analytics platforms.<br><br>
+
+   <strong>Hardware Design & PCB Layout:</strong> Quick to adapt to new EDA tools and design methodologies, with expertise in schematic capture, PCB routing, and component selection. Committed to staying current with emerging semiconductor technologies.<br><br>
+
+   <strong>Signal Processing & Analysis:</strong> Strong analytical skills in digital signal processing, capable of implementing filters, transforms, and real-time data processing algorithms for embedded applications.<br><br>
+
+   <strong>Technical Documentation:</strong> Effective in creating comprehensive technical documentation, design specifications, and test reports. Skilled in collaborating with cross-functional teams and presenting complex hardware concepts clearly.<br><br>
+
+   <strong>Project Management:</strong> Experienced in managing hardware development lifecycles, coordinating component procurement, and meeting project milestones while maintaining quality standards.
+ </p>
+</div>
+
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+             <span class="skill">C/C++ Programming <i class="val">95%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">Verilog/VHDL <i class="val">85%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">Embedded Programming <i class="val">90%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">FPGA Design <i class="val">80%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">PCB Design <i class="val">75%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">ARM Cortex Programming <i class="val">85%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+         </div>
+
+         <div class="col-lg-6">
+
+           <div class="progress">
+             <span class="skill">IoT Protocols (MQTT, CoAP) <i class="val">80%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">Real-Time Operating Systems <i class="val">75%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">Digital Signal Processing <i class="val">70%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">Sensor Integration <i class="val">85%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">Wireless Communication <i class="val">80%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+           <div class="progress">
+             <span class="skill">VLSI Circuit Design <i class="val">75%</i></span>
+             <div class="progress-bar-wrap">
+               <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+             </div>
+           </div>
+
+         </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume-Introduction</h2>
+          <p>B.Tech in Electronics and Communication Engineering, RGMCET Nandyal, A.P, India.
+            Further information can be get through linkedin.
+
+          </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Hari Ramm</h4>
+              <p><em>
+                 Experienced in writing high-quality, well-documented code, evaluating AI model and drawing insights from data. Effective communicator with a keen eye for software quality and performance. </em></p>
+              <ul>
+                <li>Housing board colony, Rajiv Marg, Kadapa, A.P</li>
+                <li>+91 7995307237</li>
+                <li>rammachiraju2003@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology in Electronics and communication Engineering</h4>
+              <h5>2021 - 2025</h5>
+              <p><em>RGMCET, Nandyal</em></p>
+              <p style="text-align: justify;">
+  Maintained consistent academic performance with a 7.42 CGPA in Electronics and Communication Engineering.<br>
+  Relevant coursework: VLSI, Digital Electronics, Printed Circuit Board, Embedded Systems.
+</p>
+
+            </div>
+            <div class="resume-item">
+              <h4>Intermediate</h4>
+              <h5>2019 - 2021</h5>
+              <p><em>Sri Gayatri Educational Institutions, Kadapa</em></p>
+              <p style="text-align: justify;">
+                   Board of Secondary School (10th Class) – 98% Aggregate<br>
+                   Board of Intermediate (12th Class) – 90% (92.33% in PCM)
+              </p>
+
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+              <h4>Multiple Artifact Detection Based on Adaptive Scalp Region Selection 
+and Classifier Fusion</h4>
+              <h5>Dec 2024 - apr 2025</h5>
+
+
+              <p><em>Machine Learning Algorithms (SVM, RF, NB, Voting classifier), Python, MNE – 
+Python, NumPy, Pandas, Scikit – Learn, Matplotlib/Seaborn, Digital Signal 
+Processing </em></p>
+              <ul>
+
+
+                <li>
+Designed and implemented an ensemble machine learning model for 
+EEG artifact detection using Support Vector Machine (SVM), Random 
+Forest (RF), and Naïve Bayes (NB). 
+                </li>
+
+
+                <li>
+Processed EEG signals using MNE-Python, focusing on channels like 
+“EEG FP1-REF” for standardization and consistency.
+</li>
+
+                <li>Applied Z-score normalization and binary label encoding for 
+effective preprocessing and model training.</li>
+
+
+                <li>Demonstrated improved robustness in real-time EEG artifact detection 
+scenarios, making the model suitable for brain-computer interfaces 
+(BCIs) and clinical diagnostics.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+             <h4>Smart IoT Environmental Monitoring System</h4>
+             <h5>2024 - 2025</h5>
+             <p><em>ESP32, C/C++, MQTT, Firebase, Verilog</em></p>
+             <ul>
+               <li style="text-align: justify;">Spearheaded the development of an intelligent IoT-based environmental monitoring system using ESP32 microcontroller, integrating multiple sensors (temperature, humidity, air quality) with wireless connectivity. Implemented custom firmware in C/C++ with MQTT protocol for real-time data transmission, achieving 99.2% uptime, supporting 500+ concurrent sensor nodes, and reducing power consumption by 45% through optimized sleep modes and efficient data processing algorithms.</li>
+               
+             </ul>
+           </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+        
+  
+
+  <h2>Services</h2>
+
+  <div class="card">
+   <p style="text-align: justify;">
+     <strong>Embedded Systems Development:</strong> I design and develop efficient embedded solutions for microcontrollers and ARM-based systems. From firmware programming in C/C++ to real-time system implementation, I create reliable embedded applications for industrial automation, consumer electronics, and automotive systems using platforms like ESP32, STM32, and Arduino.
+   </p>
+ </div>
+
+ <div class="card">
+   <p style="text-align: justify;">
+     <strong>VLSI Design & Implementation:</strong> I specialize in digital circuit design using Verilog and VHDL for FPGA and ASIC implementations. My expertise includes RTL design, synthesis, timing analysis, and verification using industry-standard tools like Xilinx Vivado, Intel Quartus, and Cadence design suite for complex digital systems.
+   </p>
+ </div>
+
+ <div class="card">
+   <p style="text-align: justify;">
+     <strong>IoT Solutions Architecture:</strong> I build end-to-end IoT systems integrating sensors, wireless communication, and cloud platforms. From device connectivity using WiFi, Bluetooth, LoRa to data analytics and visualization, I create scalable IoT solutions for smart homes, industrial monitoring, and environmental sensing applications.
+   </p>
+ </div>
+
+ <div class="card">
+   <p style="text-align: justify;">
+     <strong>PCB Design & Hardware Development:</strong> I provide complete hardware design services from schematic capture to PCB layout using Altium Designer and KiCad. My services include component selection, signal integrity analysis, EMI/EMC considerations, and prototype development for embedded and IoT projects.
+   </p>
+ </div>
+
+ <div class="card">
+   <p style="text-align: justify;">
+     <strong>Signal Processing & Analytics:</strong><br>
+     - <strong>Digital Signal Processing:</strong> Implement real-time filtering, FFT analysis, and signal conditioning algorithms.<br>
+     - <strong>Data Acquisition Systems:</strong> Design sensor interfacing and data logging solutions with precision timing and storage.<br>
+     - <strong>Communication Systems:</strong> Develop wireless protocols and RF communication modules for IoT applications.
+   </p>
+ </div>
+
+ <div class="card">
+   <p style="text-align: justify;">
+     <strong>System Integration & Testing:</strong><br>
+     - <strong>Hardware-Software Integration:</strong> Seamlessly integrate firmware with hardware components and peripheral devices.<br>
+     - <strong>Performance Optimization:</strong> Analyze and optimize system performance, power consumption, and memory usage for embedded applications.
+   </p>
+ </div>
+
+ <div class="card">
+   <p style="text-align: justify;">
+     <strong>Additional Services:</strong><br>
+     - <strong>Technical Mentoring:</strong> Guide students and professionals in embedded systems, VLSI design, and IoT development through hands-on projects and industry best practices.<br>
+     - <strong>Research & Development:</strong> Contribute to cutting-edge research in low-power design, edge computing, and next-generation IoT technologies.<br>
+     - <strong>Open-Source Hardware:</strong> Develop and contribute to open-source embedded projects, sharing designs, code, and documentation with the hardware community.
+   </p>
+ </div>
+</div>
+
+<div class="row">
+
+          <!-- Service Card 1 -->
+<!-- Card 1: Embedded Systems Development -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+ <div class="icon-box iconbox-blue h-100">
+   <div class="icon">
+     <i class="bx bx-chip" title="Digital Electronics" style="color: #9035ff;"></i>
+   </div>
+   <h4><a href="#">Embedded Systems Development</a></h4>
+   <p>I design and develop embedded firmware for ARM Cortex, ESP32, and STM32 microcontrollers using C/C++. From real-time systems to low-power applications, I deliver efficient embedded solutions for industrial automation and IoT devices.</p>
+ </div>
+</div>
+
+<!-- Card 2: VLSI Design & Verification -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+ <div class="icon-box iconbox-orange h-100">
+   <div class="icon">
+     <i class="bx bx-memory-card" style="font-size: 3rem; color: #ffa76e;"></i>
+   </div>
+   <h4><a href="#">VLSI Design & Verification</a></h4>
+   <p>Complete digital circuit design using Verilog and VHDL for FPGA and ASIC implementations. From RTL design to synthesis and timing analysis using Xilinx Vivado, Intel Quartus, and Cadence tools for complex digital systems.</p>
+ </div>
+</div>
+
+<!-- Card 3: IoT Solutions Architecture -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+ <div class="icon-box iconbox-pink h-100">
+   <div class="icon">
+    <i class="bx bx-broadcast" title="Electromagnetic Theory" style="color: #E53935;"></i>
+   </div>
+   <h4><a href="#">IoT Solutions Architecture</a></h4>
+   <p>I build end-to-end IoT systems integrating sensors, wireless protocols (WiFi, Bluetooth, LoRa), and cloud platforms. From smart home automation to industrial monitoring, I create scalable IoT solutions with real-time data analytics.</p>
+ </div>
+</div>
+
+<!-- Card 4: PCB Design & Hardware -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+ <div class="icon-box iconbox-yellow h-100">
+   <div class="icon">
+     <i class="bx bx-devices" style="font-size: 3rem; color: #ffbb2c;"></i>
+   </div>
+   <h4><a href="#">PCB Design & Hardware</a></h4>
+   <p>I provide complete hardware design services from schematic capture to PCB layout using Altium Designer and KiCad. Includes component selection, signal integrity analysis, EMI/EMC considerations, and prototype development for embedded projects.</p>
+ </div>
+</div>
+
+<!-- Card 5: Signal Processing & Communication -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+ <div class="icon-box iconbox-red h-100">
+   <div class="icon">
+     <i class="bx bx-bar-chart-alt-2" style="font-size: 3rem; color: #ff5828;"></i>
+   </div>
+   <h4><a href="#">Signal Processing & Communication</a></h4>
+   <p>Implement digital signal processing algorithms, real-time filtering, and wireless communication protocols. I specialize in data acquisition systems, sensor interfacing, and RF communication modules for IoT applications.</p>
+ </div>
+</div>
+
+<!-- Card 6: System Integration & Testing -->
+<div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+ <div class="icon-box iconbox-teal h-100">
+   <div class="icon">
+     <i class="bx bx-sitemap" style="font-size: 3rem; color: #11dbcf;"></i>
+   </div>
+   <h4><a href="#">System Integration & Testing</a></h4>
+   <p>I provide hardware-software integration, performance optimization, and comprehensive testing using oscilloscopes and logic analyzers. Get validated embedded systems with optimized power consumption and memory usage.</p>
+ </div>
+</div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Bengaluru, Karnataka, India</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>machirajuhariramm@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 7995307237</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Hari Ramm</h3>
+      <p>Thank You</p>
+      <div class="social-links">
+        <a href="https://github.com/Machiraju2003"target="_blank" class="C"><i class="bx bxl-github"></i></a>
+        
+        <a href="http://www.linkedin.com/in/hariram-machiraju"target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Hari Ramm</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://github.com/Machiraju2003">Hari Ramm</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/typed.js/typed.umd.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
